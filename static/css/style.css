@@ -1,3 +1,10 @@
-h1 {
-    color:red !important;
+/**** nvabar ****/
+/* set navbar-brand to stay in the middle */
+.navbar .navbar-brand-center{
+    float: left;
+    text-align: center;
+    width: 100%;
+}
+.navbar .navbar-brand-center .navbar-brand{
+    float: none;
 }
